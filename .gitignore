@@ -1,0 +1,12 @@
+# material de referencia da disciplina (local)
+files/
+
+# toolchain local instalada pelo mise run setup
+.tools/
+
+# artefatos de build e pacote de entrega
+build/
+entrega/
+
+# enunciado (material da disciplina, fora do repo publico)
+C-Trabalho-*.pdf

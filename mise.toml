@@ -1,0 +1,36 @@
+# Ambiente do Trabalho 1 de Compiladores (Linter miniLua com Flex/Bison)
+#
+# flex e bison nao possuem binarios pre-compilados no registry do mise,
+# entao o task "setup" compila as ferramentas que faltarem em .tools/
+# (prefixo local do projeto), e o PATH abaixo as expoe para os demais tasks.
+
+[env]
+_.path = [".tools/bin"]
+
+[tasks.setup]
+description = "Instala a toolchain local (flex 2.6.4 e, se faltar, bison) em .tools/"
+run = "bash scripts/bootstrap.sh"
+
+[tasks.build]
+description = "Gera o analisador (flex+bison) e compila o linter"
+depends = ["setup"]
+run = "make"
+
+[tasks.test]
+description = "Roda o linter sobre os testes do enunciado e compara byte a byte"
+depends = ["build"]
+run = "make test"
+
+[tasks.run]
+description = "Roda o linter em um arquivo .lua (ex.: mise run run -- tests/teste1.lua)"
+depends = ["build"]
+run = "./build/linter"
+
+[tasks.clean]
+description = "Remove artefatos de build"
+run = "make clean"
+
+[tasks.zip]
+description = "Gera o ZIP de entrega para o e-Disciplinas"
+depends = ["test"]
+run = "make zip"
