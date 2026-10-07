@@ -3,6 +3,7 @@
  * Integrantes:
  *   - Caio Uehara Martins - NUSP: 13672022
  *   - Milena Rodrigues Monteiro - NUSP: 12566157
+ *   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
  *
  * Ponto de entrada: abre o arquivo .lua, dispara o parser (que orquestra o
  * lexer) e imprime o relatorio final de metricas e alertas.

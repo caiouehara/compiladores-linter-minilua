@@ -3,6 +3,7 @@
  * Integrantes:
  *   - Caio Uehara Martins - NUSP: 13672022
  *   - Milena Rodrigues Monteiro - NUSP: 12566157
+ *   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
  *
  * Analisador sintatico do miniLua. Nao construimos AST: as acoes semanticas
  * apenas alimentam o LinterContext com as metricas de cada funcao

@@ -3,6 +3,7 @@
 # Integrantes:
 #   - Caio Uehara Martins - NUSP: 13672022
 #   - Milena Rodrigues Monteiro - NUSP: 12566157
+#   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
 # Compila em .tools/ o que estiver faltando no sistema (flex e, se preciso, bison),
 # para que "mise run build/test" funcione sem instalar nada globalmente.
 set -euo pipefail

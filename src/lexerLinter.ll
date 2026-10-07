@@ -3,6 +3,7 @@
  * Integrantes:
  *   - Caio Uehara Martins - NUSP: 13672022
  *   - Milena Rodrigues Monteiro - NUSP: 12566157
+ *   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
  *
  * Analisador lexico do miniLua. Alem de tokenizar, alimenta o contexto com
  * a contagem de linhas fisicas (todo '\n', inclusive dentro de comentarios)

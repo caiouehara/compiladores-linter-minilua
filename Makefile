@@ -2,6 +2,7 @@
 # Integrantes:
 #   - Caio Uehara Martins - NUSP: 13672022
 #   - Milena Rodrigues Monteiro - NUSP: 12566157
+#   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
 #
 # Alvos: all (padrao), test, zip, clean
 

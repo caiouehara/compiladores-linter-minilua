@@ -3,6 +3,7 @@
  * Integrantes:
  *   - Caio Uehara Martins - NUSP: 13672022
  *   - Milena Rodrigues Monteiro - NUSP: 12566157
+ *   - Taiane Lopes de Oliveira Terassaka - NUSP: 11814291
  *
  * Contexto compartilhado entre o lexer (Flex) e o parser (Bison).
  * Concentra o estado da analise: contagem de linhas, metricas por funcao,
