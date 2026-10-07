@@ -6,6 +6,7 @@ O programa lê um arquivo `.lua` e imprime um relatório com métricas de volume
 ## Integrantes
 
 - Caio Uehara Martins - NUSP: 13672022
+- Milena Rodrigues Monteiro - NUSP: 12566157
 
 ## Como compilar e rodar
 

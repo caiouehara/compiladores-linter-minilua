@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # Trabalho 1 - Compiladores: bootstrap da toolchain local do projeto.
+# Integrantes:
+#   - Caio Uehara Martins - NUSP: 13672022
+#   - Milena Rodrigues Monteiro - NUSP: 12566157
 # Compila em .tools/ o que estiver faltando no sistema (flex e, se preciso, bison),
 # para que "mise run build/test" funcione sem instalar nada globalmente.
 set -euo pipefail

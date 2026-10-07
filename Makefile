@@ -1,6 +1,7 @@
 # Trabalho 1 - Compiladores: Linter e Extrator de Metricas para miniLua
 # Integrantes:
 #   - Caio Uehara Martins - NUSP: 13672022
+#   - Milena Rodrigues Monteiro - NUSP: 12566157
 #
 # Alvos: all (padrao), test, zip, clean
 
@@ -37,7 +38,7 @@ build/linter: $(SRCS) src/LinterContext.hh | build
 
 test: build/linter
 	@status=0; \
-	for t in 1 2 3; do \
+	for t in 1 2 3 4; do \
 		./build/linter tests/teste$$t.lua > build/teste$$t.out; \
 		if diff -u tests/expected/teste$$t.out build/teste$$t.out > /dev/null; then \
 			echo "teste$$t: OK"; \

@@ -2,6 +2,7 @@
  * Trabalho 1 - Compiladores: Linter e Extrator de Metricas para miniLua
  * Integrantes:
  *   - Caio Uehara Martins - NUSP: 13672022
+ *   - Milena Rodrigues Monteiro - NUSP: 12566157
  *
  * Contexto compartilhado entre o lexer (Flex) e o parser (Bison).
  * Concentra o estado da analise: contagem de linhas, metricas por funcao,

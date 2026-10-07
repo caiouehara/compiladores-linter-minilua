@@ -1,0 +1,20 @@
+=== RELATÓRIO DE ANÁLISE ===
+Arquivo: teste4.lua
+Linhas Físicas: 17
+Linhas Lógicas: 13
+
+--- Função: conta_ate ---
+Parâmetros: 1 (n)
+Chamadas de Funções Externas: 0
+Profundidade Máxima de Aninhamento: 2
+Complexidade Ciclomática: 2 (1 base + 1 repeat)
+
+--- Função: soma_passos ---
+Parâmetros: 1 (n)
+Chamadas de Funções Externas: 0
+Profundidade Máxima de Aninhamento: 2
+Complexidade Ciclomática: 2 (1 base + 1 for)
+
+--- Alertas do Linter ---
+[Aviso] Linha 13: 'Magic Number' detectado (2). Considere extrair para uma constante.
+============================
